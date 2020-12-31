@@ -1,0 +1,23 @@
+.navbar{
+  grid-area: navbar;
+}
+
+.information{
+  gird-area: information;
+}
+.container{
+  display: grid;
+  grid-template-areas:
+      "navbar information";
+    grid-template-columns: 100px .75fr;
+}
+
+@media (minwidth=300px){
+  .container{
+
+    ;
+
+  }
+}
+
+  
